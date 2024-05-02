@@ -1,5 +1,5 @@
-import { sum } from './capitalize';
+import { capitalize } from './capitalize';
 
-it('test sum 1 + 2 = 3', () => {
-  expect(sum(1, 2)).toBe(3);
+it('return first character capitalize "string" should return "S"', () => {
+  expect(capitalize('string')).toMatch(/S/);
 });

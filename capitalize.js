@@ -1,5 +1,5 @@
-function sum(a, b) {
-  return a + b;
+function capitalize(str) {
+  return str.charAt(0).toUpperCase();
 }
 
-export { sum };
+export { capitalize };
